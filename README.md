@@ -62,11 +62,9 @@ Edit these values in the `src/main.cpp` file:
 
 ## 6. Repository Structure
 ECOBIN/  
-├── lib/  &nbsp;&nbsp;&nbsp;&nbsp;  # External libraries (PlatformIO manages dependencies)  
+├── lib/  &nbsp;&nbsp;&nbsp;&nbsp;  # External libraries imported (PlatformIO manages dependencies)  
 ├── src/  &nbsp;&nbsp;&nbsp;&nbsp;  # Main firmware code  
-│   ├── main.cpp  &nbsp;&nbsp;&nbsp;&nbsp;    # Core logic  
-│   ├── sensors.cpp &nbsp;&nbsp;&nbsp;&nbsp;  # Sensor data collection  
-│   └── comms.cpp  &nbsp;&nbsp;&nbsp;&nbsp;   # WiFi/MQTT communication  
+│   ├── main.cpp  &nbsp;&nbsp;&nbsp;&nbsp;    # Core code    
 ├── test/         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    # Unit tests (PlatformIO test framework)  
 ├── platformio.ini  &nbsp;&nbsp;&nbsp;&nbsp;  # Build configuration  
 └── README.md         &nbsp;&nbsp;&nbsp;&nbsp;
