@@ -16,7 +16,7 @@ The hardware counterpart to the [Waste2Worth](https://github.com/dhirajchaurasiy
 | Component | Quantity | Purpose |  
 |-----------|----------|---------|  
 | **ESP32** | 1 | Main microcontroller (WiFi/BLE) |  
-| **DHT22** | 1 | Temperature & humidity sensing |  
+| **DHT11** | 1 | Temperature & humidity sensing |  
 | **MQ-135** | 1 | Gas (NH₃/CO₂) detection |  
 | **pH Sensor** | 1 | Compost acidity monitoring |  
  
